@@ -2,11 +2,21 @@ const express = require('express');
 
 const app = express();
 
+// For parsing application/json
+app.use(express.json());
+
 app.get('/', function (req, res) {
     res.send({
         hello: "world"
     })
  })
+
+ app.post('/', function (req, res) {
+  const name = req.body.name || "there";
+  res.send({
+      hello: name
+  })
+})
 
 /** catch 404 and fwd to error handler */
 

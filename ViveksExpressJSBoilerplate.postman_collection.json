@@ -1,0 +1,69 @@
+{
+	"info": {
+		"_postman_id": "6323729d-540b-462f-ab34-8c37ce8be5ac",
+		"name": "ViveksExpressJSBoilerplate",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21356018"
+	},
+	"item": [
+		{
+			"name": "3001 GET",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "X-Api-Key",
+						"value": "1EavAfyNK2KEuvT9Hjz7gnasHhNbeMcrKFls2THD",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3001/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "3001 POST",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "X-Api-Key",
+						"value": "1EavAfyNK2KEuvT9Hjz7gnasHhNbeMcrKFls2THD",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"vivek\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3001/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
